@@ -8,4 +8,6 @@ Dependancies
 2. gcc
 
 #Compiling & Installing 
+```
 gcc main.c -o randomwall && mkdir -p ~/.config/randomwallconfig && cp randomwall ~/.config/randomwallconfig && sudo ln -s $HOME/.config/randomwallconfig/randomwall /usr/bin/randomwall
+```
